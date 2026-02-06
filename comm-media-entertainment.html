@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Communication Services — Media & Entertainment (Top 12)</title>
+  <style>
+    html, body { margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+
+    .header {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(0,0,0,.08);
+    }
+    .header h1 {
+      font-size: 16px;
+      margin: 0 0 4px 0;
+      font-weight: 600;
+    }
+    .header .sub {
+      font-size: 12px;
+      opacity: .7;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      padding: 12px;
+    }
+
+    /* 2-column grid on wider screens */
+    @media (min-width: 980px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .card {
+      border: 1px solid rgba(0,0,0,.08);
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .card .title {
+      padding: 8px 10px;
+      font-size: 13px;
+      font-weight: 600;
+      border-bottom: 1px solid rgba(0,0,0,.06);
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .card .title span:last-child {
+      font-weight: 500;
+      opacity: .65;
+      white-space: nowrap;
+    }
+
+    /* Control chart height here */
+    .tv-wrap {
+      height: 420px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Communication Services — Media & Entertainment (Top 12)</h1>
+    <div class="sub">Daily interval • Light theme • TradingView Advanced Chart widgets</div>
+  </div>
+
+  <div class="grid">
+
+    <!-- NOTE: symbol strings include exchange prefixes.
+         If any ticker doesn't load, adjust its prefix (NASDAQ/NYSE). -->
+
+    <!-- GOOG -->
+    <div class="card">
+      <div class="title"><span>GOOG</span><span>NASDAQ:GOOG</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NASDAQ:GOOG", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- META -->
+    <div class="card">
+      <div class="title"><span>META</span><span>NASDAQ:META</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NASDAQ:META", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- NFLX -->
+    <div class="card">
+      <div class="title"><span>NFLX</span><span>NASDAQ:NFLX</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NASDAQ:NFLX", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- DIS -->
+    <div class="card">
+      <div class="title"><span>DIS</span><span>NYSE:DIS</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NYSE:DIS", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- WBD -->
+    <div class="card">
+      <div class="title"><span>WBD</span><span>NASDAQ:WBD</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NASDAQ:WBD", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- APP (AppLovin is typically NASDAQ:APP) -->
+    <div class="card">
+      <div class="title"><span>APP</span><span>NASDAQ:APP</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NASDAQ:APP", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- TTWO -->
+    <div class="card">
+      <div class="title"><span>TTWO</span><span>NASDAQ:TTWO</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NASDAQ:TTWO", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- EA -->
+    <div class="card">
+      <div class="title"><span>EA</span><span>NASDAQ:EA</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NASDAQ:EA", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- TKO -->
+    <div class="card">
+      <div class="title"><span>TKO</span><span>NYSE:TKO</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NYSE:TKO", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- LYV -->
+    <div class="card">
+      <div class="title"><span>LYV</span><span>NYSE:LYV</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NYSE:LYV", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- OMC -->
+    <div class="card">
+      <div class="title"><span>OMC</span><span>NYSE:OMC</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NYSE:OMC", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+    <!-- TTD -->
+    <div class="card">
+      <div class="title"><span>TTD</span><span>NASDAQ:TTD</span></div>
+      <div class="tradingview-widget-container tv-wrap">
+        <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+        { "autosize": true, "symbol": "NASDAQ:TTD", "interval": "D", "timezone": "Etc/UTC", "theme": "light", "style": "1",
+          "hide_side_toolbar": true, "allow_symbol_change": false, "save_image": true, "studies": ["STD;SMA"] }
+        </script>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
