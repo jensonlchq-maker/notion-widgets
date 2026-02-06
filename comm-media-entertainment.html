@@ -29,9 +29,14 @@
       padding: 12px;
     }
 
-    /* 2-column grid on wider screens */
-    @media (min-width: 980px) {
+    /* 2 columns on medium screens */
+    @media (min-width: 800px) {
       .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* 3 columns on larger screens */
+    @media (min-width: 1200px) {
+      .grid { grid-template-columns: 1fr 1fr 1fr; }
     }
 
     .card {
@@ -55,9 +60,9 @@
       white-space: nowrap;
     }
 
-    /* Control chart height here */
+    /* Twice the previous height (420px -> 840px) */
     .tv-wrap {
-      height: 420px;
+      height: 840px;
       width: 100%;
     }
   </style>
@@ -70,9 +75,6 @@
   </div>
 
   <div class="grid">
-
-    <!-- NOTE: symbol strings include exchange prefixes.
-         If any ticker doesn't load, adjust its prefix (NASDAQ/NYSE). -->
 
     <!-- GOOG -->
     <div class="card">
@@ -134,7 +136,7 @@
       </div>
     </div>
 
-    <!-- APP (AppLovin is typically NASDAQ:APP) -->
+    <!-- APP -->
     <div class="card">
       <div class="title"><span>APP</span><span>NASDAQ:APP</span></div>
       <div class="tradingview-widget-container tv-wrap">
